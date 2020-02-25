@@ -1,0 +1,177 @@
+/*Sidebar design*/
+.logo-image-big{
+	height: 150px;
+  width: 150px;
+  margin: 0 auto;
+}
+.sidebar .logo:after, .off-canvas-sidebar .logo:after{
+	background-color: transparent;
+}
+.sidebar .nav li{
+	list-style: none;
+}
+.sidebar .nav li>a, .off-canvas-sidebar .nav li>a{
+	margin: 0px 15px 0;
+	opacity: 1;
+}
+.sidebar .logo, .off-canvas-sidebar .logo{
+	background-color: #393939;
+}
+.sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper{
+	background-color: #393939;
+}
+.collapse.show{
+	padding-left: 15px;
+}
+.collapse.show li a{
+	opacity: .7;
+}
+/*News Page*/
+.main-panel{
+	background-color: #E4E8EA;
+}
+.main-panel>.content{
+	padding: 0 15px 30px;
+}
+.card{
+	border-radius: 4px;
+	box-shadow: 1px 0px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.mb-0{
+	margin-bottom: 0 !important;
+}
+.pl-10{
+	padding-left: 10px;
+}
+.pl-5{
+	padding-left: 5px;
+}
+.pl-15{
+	padding-left: 15px;
+}
+.pl-20{
+	padding-left: 20px;
+}
+/*Add New Post*/
+#file_name, #file_name_image, #file_name_links{
+	height: 35px;
+  width: 300px;
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  color: #66615b;
+  padding: 10px 10px 10px 10px;
+}
+.image-btn {
+	background: transparent;
+	border: 1px solid #63c6bd;
+	color: #63c6bd;
+	margin-left: -94px;
+	margin-bottom: 14px;
+	line-height: 1.0em !important;
+}
+.select-img{
+	width: 360px !important;
+	height: 46px !important;
+}
+.nav-tabs.nav-justified{
+	margin-bottom: 20px;
+}
+.nav-tabs.nav-justified > li.active{
+	border-bottom:6px solid #e53c7f !important;
+}
+.nav-tabs.nav-justified > li.active > a {
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    background-color:transparent;
+		color: #e53c7f !important;
+}
+.nav-tabs.nav-justified > li > a > span {
+	vertical-align: text-bottom;
+	margin-left: 5px;
+}
+.nav-tabs.nav-justified > li{
+	width: 33%;
+	text-align: left;
+	display: block;
+
+	/* padding: 15px 0; */
+}
+.nav-tabs.nav-justified > li>a {
+    font-size: 20px;
+    color: #979696;
+    padding: 15px;
+		padding-left: 0px;
+		display: block;
+    background: transparent;
+}
+.nav-tabs.nav-justified > li>a:hover {
+	text-decoration: none;
+}
+.color-blue {
+	color: #63c6bd;
+}
+.background-blue {
+	background: #63c6bd;
+	border-radius: 9px;
+}
+.top-btn {
+	border-radius: 9px;
+}
+.title-heading {
+	text-transform: uppercase;
+}
+.title-heading strong {
+	text-transform: uppercase;
+}
+/* Optional: Adjust the positioning of the character count text. */
+label.mce-charactercount {
+  margin: 2px 0 2px 2px;
+  padding: 8px;
+}
+
+/* Optional: Remove the html path code from the status bar. */
+.mce-path {
+  display: none !important;
+}
+button, input, optgroup, select, textarea {
+  font-family: 'Roboto Regular', arial !important;
+}
+.dropzone {
+	border: 2px dashed lightgray !important;
+}
+.search-bar .form-group {
+	padding-right: 7px;
+}
+.border-gray {
+  border: 1px solid #afb1b2;
+	/* height: 30px; */
+}
+.action-btn .material-icons {
+	 font-size: 20px !important;
+}
+.csv-btn {
+	height: 45px;
+	padding-top: 8px;
+	background: #adabab;
+}
+.new-btn {
+	background: #63c6bd;
+  padding: 15.5px;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100% !important;
+  }
+	.heading-txt {
+		font-size: 11px;
+    margin-left: 10px;
+	}
+}
